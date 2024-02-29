@@ -1,0 +1,101 @@
+
+* {
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+body {
+    background: linear-gradient(to left, rgb(0, 255, 238), rgb(255, 192, 203));
+}
+
+/* main {
+    margin: 100px;
+} */
+
+
+
+.tweet {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 3px 12px 1px gray;
+    background-color: azure;
+}
+
+
+.box1, .box2, .box3 {
+    padding: 10px;
+}
+
+.img {
+    height: 90px;
+}
+
+
+
+.box1 {
+    display: flex;
+}
+
+
+.box-profile {
+    display: flex;
+    width: 80%;
+}
+
+
+.box-icon {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title-tweet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-tweet p {
+    margin: 1px;
+    padding: 3px 10px;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.box2 {
+    font-size: 20px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-tweet .name {
+    font-weight: bold;
+}
+.title-tweet .username {
+    font-weight: 300;
+    color: gray;
+}
+
+.title-tweet p {
+    line-height: 15px;
+}
+
+
+.contenedor-app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,56 @@
+
+.banner-tienda {
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(255, 138, 0, 0.5), rgba(38, 255, 0, 0.5), rgba(17, 64, 221, 0.5)), url(https://images.samsung.com/is/image/samsung/assets/pe/2023/landing/Frame61.png?imwidth=1366);
+    background-size: cover;
+}
+
+
+
+body {
+    color: white;
+    background-color: paleturquoise;
+}
+
+
+/* para dispostivos moviles */
+@media all and (max-width: 500px) {
+    
+    body {
+        background-color: purple;
+    } 
+
+    .banner-tienda {
+        height: 500px;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(255, 138, 0, 0.5), rgba(38, 255, 0, 0.5), rgba(17, 64, 221, 0.5)), url(https://images.falabella.com/v3/assets/blt9ac1b5ba571392f3/blt61dba48da3ecd8f5/657b7dbcab8499539b1f8fcf/MSITE_VITRINA_4_PE_AO.jpg?format=webp&quality=70&width=100p);
+        background-size: cover;
+    }
+
+}
+
+
+@media all and (min-width: 2000px) {
+    
+    body {
+        background-color: black;
+    }
+    
+    
+}
+
+
+@media all and (min-width: 769px) and (max-width: 1200px)  {
+    body {
+        background-color: orange;
+    }
+
+    .banner-tienda {
+        height: 300px;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(255, 138, 0, 0.5), rgba(38, 255, 0, 0.5), rgba(17, 64, 221, 0.5)), url(https://images.falabella.com/v3/assets/blt9ac1b5ba571392f3/bltd00379246f3ee5f0/657b7d239f329da781af0df5/ON_VITRINA_3_PE_AO.jpg?format=webp&quality=70&width=100p);
+        background-size: cover;
+    }
+    
+}

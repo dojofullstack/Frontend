@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h1>Aprendiendo Formularios</h1>
+ 
+    
+    <div>
+        <h2>Iniciar Sesion</h2>
+
+        <!-- generar un formulario con multiples tipos de caja de datos -->
+        <form method="post" action="https://webhook.site/ea9e10e5-f16a-4f53-b282-7da5b4f354e6">
+
+            
+            <label for="lastname" >Apellido:</label>
+            <input type="text" name="apellido" placeholder="ingresa tu apellido.."  id="lastname" />
+            
+            <br/>
+
+            <label for="contrasena" >Contrasena:</label>
+            <input type="password" name="contrasena" placeholder="ingresa tu contrasena.."  id="contrasena" />
+            
+            <input type="submit" value="enviar datos" >
+            
+        </form>
+
+
+    </div>
+
+
+    <hr>
+
+        
+    <div>
+        <h2>Compra personaliza ropa</h2>
+
+        <!-- generar un formulario con multiples tipos de caja de datos -->
+        <form method="post" action="https://webhook.site/ea9e10e5-f16a-4f53-b282-7da5b4f354e6" >
+
+
+            <label for="stock" >Cantidad de pares:</label>
+            <input type="" name="cantidad" placeholder="ingresa la cantidad.."  id="stock" />
+            
+
+
+<p> <b>Selecciona tu marca favorita: </b> </p>
+            <label for="nike">Nike</label>
+            <input type="checkbox"  name="marca" value="nike" id="nike" />
+
+            <label for="adidas">Adidas</label>
+            <input type="checkbox"  name="marca" value="adidas"  id="adidas" />
+
+            <label for="puma">Puma</label>
+            <input type="checkbox"  name="marca" value="puma" id='puma' />
+
+
+
+            <br/>
+
+            <p> <b>Selecciona tu color favorito: </b>  </p>
+
+            <label for="rojo">Rojo</label>
+            <input type="radio" name="color"  value="rojo" id="rojo">
+
+            <label for="verde">Verde</label>
+            <input type="radio" name="color"  value="verde"  id="verde"/>
+
+            <label for="azul">Azul</label>
+            <input type="radio" name="color"  value="azul"  id="azul"/>
+
+
+            <br/>
+
+
+            <label for="fecha-vuelo">Elige la fecha de vuelo</label>
+
+            <input type="datetime-local" name="fechaVuelo" id="fecha-vuelo" >
+
+            <input type="submit" value="enviar datos" >
+            
+
+        </form>
+
+
+    </div>
+
+
+    
+    <!-- disenar un formaulariio para vuelos:
+
+- ciudad de origen 'text'
+- ciudad de destino 'text
+- fecha de ida y vuelta 'datetime-local'
+- numero de adulit 'number'
+- numero de Menores 'number'
+
+- 'Buscar vuelo'  type='submit' -->
+
+
+</body>
+</html>

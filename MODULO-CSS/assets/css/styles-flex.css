@@ -1,0 +1,50 @@
+
+
+
+.contaner-flex {
+    /* height: 1200px; */
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background-color: purple;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.flex-item:nth-child(1) {
+    background-color: green;
+}
+.flex-item:nth-child(2) {
+    background-color: pink;
+}
+.flex-item:nth-child(3) {
+    background-color: red;
+}
+
+
+.flex-item:last-child  {
+    background-color: wheat;
+}
+
+.item1 {
+    color: white;
+    order: 1;
+    background-color: green;
+}
+
+.item2 {
+    color: white;
+    order: 5;
+    background-color: pink;
+}
+
+.item3 {
+    color: white;
+    order: 2;
+    background-color: red;
+}

@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap);
+@import url(styles-dojo.css);
+@import url(variables.css);
+
+
+
+
+form div {
+    margin: 10px;
+}
+
+
+
+.data:last-child {
+    background-color: aquamarine;
+    font-weight: bold;
+    color: red;
+}
+
+
+input:focus {
+    font-size: 19px;
+    color: purple;
+    background-color: black;
+}
+
+.login:hover {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+
+.data:nth-child(3) {
+    color: purple;
+    background-color: orange;
+}
+
+main {
+    margin: 50px;
+    border: 3px solid red;
+    max-width: 600px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+main:hover {
+    background-color: gray;
+}
+
+/* 
+.email-nombre {
+    display: inline-block;
+} */
+
+
+.box-fila {
+    display: flex;
+}
+
+
+.login {
+    color: var(--henry);
+    font-size: var(--btn-grande);
+    background-color: var(--bg-color);
+}

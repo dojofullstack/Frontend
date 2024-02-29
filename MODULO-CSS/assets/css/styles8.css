@@ -1,0 +1,102 @@
+
+
+.img-gato {
+    height: 300px;
+}
+
+
+
+
+.img-gato:hover {
+    border-radius: 30px;
+    height: 500px;
+    border: 5px solid orange;
+}
+
+
+.btn-login {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-login:focus {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+
+.text-parrafo:focus {
+    font-weight: bold;
+    color: green;
+}
+
+
+.input-nombre {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.input-nombre:focus {
+    border: 2px solid greenyellow;
+    font-size: 20px;
+    color: green;
+}
+
+
+.signo:focus {
+    height: 50px;
+    width: 50px;
+    color: orange;
+    background-color: green;
+    accent-color: green;
+}
+
+
+select:focus {
+    font-size: 20px;
+    color: purple;
+    border: 1px solid red;
+}  
+
+
+.comentar:focus {
+    font-size: 20px;
+    font-style: italic;
+    color: orangered;
+}
+
+
+.google:active {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-iphone:active {
+    background-color: green;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.btn-shop:first-child {
+    background-color: purple;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+
+.btn-shop:last-child {
+    background-color: orange;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+}

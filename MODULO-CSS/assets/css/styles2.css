@@ -1,0 +1,36 @@
+
+* {
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+
+div {
+    border: 3px solid purple;
+    width: 80%;
+    height: 300px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 35px;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: yellow;
+    background-image: url(https://fotografias.lasexta.com/clipping/cmsimages02/2018/07/18/54202C79-C95C-4589-8C76-4CC8DB96E85C/98.jpg?crop=960,540,x0,y0&width=1900&height=1069&optimize=high&format=webply)  ;
+    background-size: cover;
+}
+
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+}

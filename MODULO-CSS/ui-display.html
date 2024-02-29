@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        main {
+            border: 5px solid black;
+            display: grid;
+            grid-template-columns: 70% 30%;
+            grid-template-rows: repeat(7, 100px);
+            margin: 10px;
+            color: white;
+            background-color: gray;
+        }
+
+
+        header {
+            border: 3px solid orangered;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background: green;
+            padding: 10px;
+        }
+
+        nav {
+            border: 3px solid orangered;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background: blue;
+            padding: 10px;
+        }
+
+        section {
+            border: 3px solid orangered;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            background: purple;
+            padding: 10px;
+        }
+
+        article {
+            border: 3px solid orangered;
+            grid-row-start: 5;
+            grid-row-end: 7;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            background: orange;
+            padding: 10px;
+        }
+
+
+        aside {
+            border: 3px solid orangered;
+            grid-row-start: 3;
+            grid-row-end: 8;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            background: yellow;
+            padding: 10px;
+        }
+
+
+        footer {
+            border: 3px solid orangered;
+            grid-row-start: 7;
+            grid-row-end: 8;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background: black;
+            padding: 10px;
+            color: white
+        }
+
+
+    </style>
+</head>
+
+
+<body>
+
+
+    <main>
+
+        <header>header</header>
+        <nav>nav</nav>
+        <section>section</section>
+        <article>article</article>
+        <aside>aside</aside>
+        <footer>footer</footer>
+
+    </main>
+    
+</body>
+</html>

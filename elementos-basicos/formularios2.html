@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div>
+        
+        <h1>Formularios</h1>
+
+        <!-- si utilizan el campo input file agregar el atributo enctype="multipart/form-data"  -->
+
+        <form method="post"  action="https://webhook.site/b82a73df-4acb-4a10-b2e7-720842998e5a"  id="formulario-pruebas"  >
+
+
+            <label for="nombre" >Nombre:</label>
+            <input type="text"  name="nombre"  id="nombre" />
+
+
+            <br/>
+
+            <label for="correo" >Correo:</label>
+
+            <input type="email" name="correo" id="correo"  />
+
+            <br/>
+            <label for="fichero" >Adjuntar C.V:</label>
+
+            <input type="file"  name="fichero" id="fichero" accept="*"  />
+
+
+            <label for="salario" >Salario estimado:</label>
+
+            <input id="salario" type="range" min="1" max="100"  name="salario" />
+
+
+            <input type="url" placeholder="ingresat tu perfil de Linkedin" />
+
+            <br/>
+
+            <textarea rows="10" cols="50" name="comentarios" id="coment" > </textarea>
+
+
+            <br/>
+
+            <div>
+                <label for="stack" >Indica la tecnologia backend de preferencia:</label>
+                <select id="stack" name="stack">
+    
+                    <option value="0">selecciona tu stack</option>
+                    <option value="1" >python</option>
+                    <option value="2">javascript</option>
+                    <option value="3">golang</option>
+                    <option value="4" >Ruby</option>
+    
+                </select>
+            </div>
+
+
+
+            <input type="hidden" value="091020192011029101" name="valor-oculto" />
+            
+
+            <input type="submit" value="enviar datos" />
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

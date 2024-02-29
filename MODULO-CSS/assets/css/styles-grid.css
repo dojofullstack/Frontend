@@ -1,0 +1,41 @@
+
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns:  repeat(3, 335px) ;
+    grid-template-rows:  33% 33% 33%;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 10px;
+
+}
+
+
+.item-grid {
+    background-color: green;
+    border: 3px solid yellow;
+}
+
+.orden1 {
+    background-color: beige;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+
+.orden2 {
+    background-color: orange;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+
+.orden3 {
+    background-color: purple;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenedor html</title>
+
+    <style>
+
+        #contenedor-principal {
+            color: purple;
+            border: 3px solid purple;
+        }
+
+        .box {
+            color: orange;
+            border: 3px solid orange;
+        }
+
+        .box-hijo {
+            color: green;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+    <h1>Contenedores HTML 'div'</h1>
+
+
+    <!-- la etiqueta div nos permite contener multiples elementos -->
+    <div id="contenedor-principal" class="box" >
+        <h2>Aplicando Div</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, mollitia.</p>
+
+        <div class="box-hijo">
+            <ul>
+                <li>aprendiendo html</li>
+                <li>aprendiendo JS</li>
+            </ul>
+
+            <div class="box-nieto">
+                    <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+      
+    </div>
+    
+
+
+    <div id="contenedor-secundario" class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus similique quibusdam assumenda laborum placeat. Assumenda recusandae ipsa possimus magnam magni?</p>
+        <a href="#sitio.html">mas informacion</a>
+    </div>
+
+
+    
+</body>
+</html>

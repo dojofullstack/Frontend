@@ -1,0 +1,139 @@
+
+/* selector universal */
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* selector basado en tag */
+body {
+    background-color: beige;
+}
+
+
+/* selector basado en id */
+
+#contenedor-main {
+    background-image: url(https://i.shgcdn.com/dc45f91a-7dfc-4553-a78f-a5ed972fc3f6/-/format/auto/-/preview/3000x3000/-/quality/best/);
+    margin: 20px;
+}
+
+
+/* selector basado en clase */
+
+.pokemon {
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+.imagen-pokemon {
+    width: 250px;
+}
+
+
+/* .planta {
+    margin: 0 5px;
+    background-color: purple;
+    padding: 3px 30px;
+}
+
+
+.veneno {
+    margin: 0 5px;
+    background-color: purple;
+    padding: 3px 30px;
+} */
+
+/* .planta, .veneno {
+    border-radius: 20px;
+    color: white;
+    margin: 0 5px;
+    padding: 3px 30px;
+} */
+
+.pokeboton {
+    border-radius: 20px;
+    color: white;
+    margin: 0 5px;
+    padding: 3px 30px;
+}
+
+.planta {
+    background-color: greenyellow;
+}
+
+.veneno {
+    background-color: blue;
+}
+
+.poke-id {
+    color: gray;
+    margin: 3px;
+}
+
+.titulo-pokemon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin: 10px 0px; */
+}
+
+
+
+.box-pokemon {
+    padding: 10px;
+    margin: 5px;
+    background-color: pink;
+}
+
+/* selector subclases */
+div.box-pokemon {
+    border: 3px solid green;
+}
+
+
+/* selector subclases */
+button.box-pokemon {
+    background-color: purple;
+    border: 3px solid yellow;
+}
+
+
+/* selector descendientes */
+
+.pokemon .imagen-pokemon {
+    border-radius: 30px;
+    background-color: green;
+}
+
+
+
+
+.imagen-pokemon {
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+/* selector descendientes */
+.pokemon .box-pokemon .pokeboton {
+    border: 3px solid black;
+}
+
+
+
+div.pokemon .box-pokemon span.pokeboton {
+    border: 3px solid red;
+}
+
+
+/* div.box-test > div.text-main {
+    background-color: orange;
+} */
+
+div.box-test > div {
+    background-color: orange;
+}
