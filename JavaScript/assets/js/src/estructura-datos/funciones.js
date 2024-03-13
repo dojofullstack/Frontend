@@ -80,3 +80,24 @@ const salidaFuncionAuto = function (saludo, nombre){
 
 
 salidaFuncionAuto();
+
+
+
+
+// las funciones flecha arrow function
+
+
+
+const saludar = () => {
+    console.log('saluduando al tema');
+}
+
+
+const acelerar = () => {
+    console.log('acelear auto', auto);
+}
+
+
+saludar();
+
+acelerar('tesla');

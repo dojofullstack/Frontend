@@ -78,7 +78,7 @@ console.log(comentariosFacebook);
 
 
 // para eliminar un elemento segun su posicion
-// comentariosFacebook.splice(1, 1);
+// comentariosFacebook.splice(posicion, 1);
 
 
 delete(comentariosFacebook[0])
